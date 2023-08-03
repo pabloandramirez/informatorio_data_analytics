@@ -4,10 +4,11 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker, declarative_base
 from pandas import json_normalize
 import datetime
+import config
 
 # Configuración de la base de datos
 #engine = create_engine('sqlite:///weather_data.db')
-engine = create_engine('postgresql://postgres:nolocreo@localhost/weather_data')
+engine = create_engine(f'postgresql://postgres:{config.password}@localhost/weather_data')
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 
@@ -24,7 +25,7 @@ Base.metadata.create_all(engine)
 
 # Obtención de datos meteorológicos de OpenWeatherMap
 api_key = 'c8cfc85ff7481b57bd0c9f178cd4b0d0'
-city = 'London,UK' # por ejemplo: 'London, UK'
+city = 'Resistencia' # por ejemplo: 'London, UK'
 url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
 response = requests.get(url)
 data = response.json()
@@ -48,6 +49,8 @@ print(f"El DataFrame ha sido guardado en {output_file}.")
 # Extracción de los datos relevantes
 temperature = data['main']['temp']
 description = data['weather'][0]['description']
+
+
 
 # Almacenamiento de los datos en la base de datos
 session = Session()

@@ -1,2 +1,0 @@
-weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,clouds.all,sys.country,sys.sunrise,sys.sunset
-"[{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}]",stations,10000,1690343645,-18000,5119232,Great River,200,-73,40,23.75,24.11,23.75,23.75,1018,74,1018,1018,3.47,224,4.72,93,US,1690278221,1690330383

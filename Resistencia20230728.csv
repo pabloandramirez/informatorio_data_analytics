@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}]",stations,10000,1690560500,-10800,3429577,Resistencia,200,-58.9839,-27.4606,20.02,19.23,19.03,20.59,1026,44,3.6,160,0,1,8257,AR,1690540774,1690579504

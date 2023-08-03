@@ -1,2 +1,0 @@
-weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
-"[{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04d'}]",stations,10000,1690343651,7200,2746304,Tijnje,200,6,53,12.49,12.14,10.57,13.9,1010,90,1010,1010,2.68,255,4.12,81,2,2001318,NL,1690343011,1690400474

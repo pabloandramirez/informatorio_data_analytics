@@ -1,2 +1,0 @@
-weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,clouds.all,sys.country,sys.sunrise,sys.sunset
-"[{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}]",stations,10000,1690343653,18000,1282027,Malé,200,74,4,28.35,32.31,28.35,28.35,1013,76,1013,1013,3.14,206,3.02,99,MV,1690333269,1690377576

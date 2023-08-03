@@ -1,2 +1,0 @@
-weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,rain.1h,clouds.all,sys.country,sys.sunrise,sys.sunset
-"[{'id': 501, 'main': 'Rain', 'description': 'moderate rain', 'icon': '10n'}]",stations,10000,1690343648,-10800,3441442,Ombues de Lavalle,200,-58,-34,11.24,10.95,11.24,11.24,1014,97,1014,1007,2.03,110,5.42,2.05,100,UY,1690368551,1690405654
